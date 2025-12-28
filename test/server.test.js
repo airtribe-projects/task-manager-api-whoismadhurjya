@@ -1,5 +1,5 @@
 const request = require('supertest');
-const app = require('./app');
+const app = require('../app');
 
 describe('Task Manager API', () => {
     // Test GET /tasks - Get all tasks
